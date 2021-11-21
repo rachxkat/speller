@@ -13,7 +13,7 @@ def load(dictionary):
     for line in file:
         words.append(line.rstrip())
     return True
-
+    file.close()
 
 def size():
     n = 0
